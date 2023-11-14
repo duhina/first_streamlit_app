@@ -1,3 +1,6 @@
+streamlit run streamlit_app.py --server.enableCORS=false
+streamlit run streamlit_app.py --server.enableWebsocketCompression=false
+
 import streamlit
 
 streamlit.title('My Moms New Healthy Diner')
